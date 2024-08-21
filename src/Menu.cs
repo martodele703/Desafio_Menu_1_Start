@@ -10,6 +10,10 @@ public class Menu
 {
     private List<Dish> dishes = new List<Dish>();
 
+    public Menu(List<Dish> dishes)
+    {
+        this.dishes = dishes;
+    }
     public List<Dish> Dishes
     {
         get { return dishes;}
