@@ -18,7 +18,7 @@ public class WaiterTests
         Waiter waiter = new Waiter("Jane Doe");
         Table table = new Table(1);
         waiter.AssignTable(table);
-        Dish dish = new Dish("Salad", 5.99m, true);
+        Dish dish = new Dish("Salad", 5.99, true);
         table.Ocupy();
         
         waiter.TakeOrder(table, dish);
